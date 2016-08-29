@@ -1,17 +1,18 @@
 {
   "name": "node-linkedin-headless-oauth",
   "author": "Sairam Krishnan",
-  "description": "Access the LinkedIn API without any browser interaction.",
-  "version": "1.0.0",
+  "description": "Access node-linkedin API without any browser interaction.",
+  "version": "2.0.1",
   "main": "index.js",
   "dependencies": {
     "phantomjs-prebuilt": "2.1.12",
     "node-horseman": "3.1.1",
-    "node-linkedin": "0.5.4"
+    "node-linkedin": "0.5.4",
+    "jsonfile": "2.3.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SaiWebApps/node-linkedin-headless.git"
+    "url": "https://github.com/SaiWebApps/node-linkedin-headless-oauth.git"
   },
   "keywords": [
     "node",

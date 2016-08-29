@@ -8,7 +8,7 @@
     "start": "node get-basic-profile-details.js"
   },
   "dependencies": {
-    "node-linkedin-headless-oauth": "1.0.0",
+    "node-linkedin-headless-oauth": "2.0.1",
     "express": "4.13.3"
   },
   "repository": {
