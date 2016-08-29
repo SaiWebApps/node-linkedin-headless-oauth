@@ -1,13 +1,15 @@
 {
-  "name": "node-linkedin-headless-oauth",
+  "name": "node-linkedin-headless-oauth-example",
   "author": "Sairam Krishnan",
   "description": "Access the LinkedIn API without any browser interaction.",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "get-basic-profile-details.js",
+  "scripts": {
+    "start": "node get-basic-profile-details.js"
+  },
   "dependencies": {
-    "phantomjs-prebuilt": "2.1.12",
-    "node-horseman": "3.1.1",
-    "node-linkedin": "0.5.4"
+    "node-linkedin-headless-oauth": "1.0.0",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
