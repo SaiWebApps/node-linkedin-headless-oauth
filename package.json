@@ -2,7 +2,7 @@
   "name": "node-linkedin-headless-oauth",
   "author": "Sairam Krishnan",
   "description": "Access node-linkedin API without any browser interaction.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "index.js",
   "dependencies": {
     "phantomjs-prebuilt": "2.1.12",
